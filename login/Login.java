@@ -18,5 +18,9 @@ public class Login {
     public void setSalario(double salario) {
         this.salario = salario;
     }
+
+    public void mostrar(){
+        System.out.println("calculo salud->"+calculoSaludo());
+    }
     
 }
