@@ -19,4 +19,9 @@ public class Login {
         this.salario = salario;
     }
     
+    public double calculoPension(){
+        return salario*0.04;
+    }
+    
+    
 }
