@@ -15,6 +15,7 @@ public class Calculo {
     }
 
     public void setSalario(double salario) {
+        System.out.println(salario);
         this.salario = salario;
     }
     
