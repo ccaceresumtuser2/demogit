@@ -23,4 +23,9 @@ public class Login {
         System.out.println("calculo salud->"+calculoSaludo());
     }
     
+    public double calculoPension(){
+        return salario*0.04;
+    }
+    
+    
 }
